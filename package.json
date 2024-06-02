@@ -1,0 +1,19 @@
+{
+  "name": "entrega-1---backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --watch --no-warnings ./src/server.js",
+    "stop-windows": "taskkill /F /IM node.exe",
+    "stop-linux": "killall -9 node"
+  },
+  "keywords": [],
+  "author": "Alan Bouzali",
+  "license": "MIT",
+  "description": "Entrega 1",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
